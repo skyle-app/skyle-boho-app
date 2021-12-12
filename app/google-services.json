@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336604855291",
+    "project_id": "skyle-boho",
+    "storage_bucket": "skyle-boho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336604855291:android:fc875b257b8d872f77295e",
+        "android_client_info": {
+          "package_name": "kr.skyle.boho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336604855291-moq6drfltvjfktsi37kg8am8jqcdt8os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDltimC2JY7r01hUlEgqa-6HhQi9C2Qkac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336604855291-moq6drfltvjfktsi37kg8am8jqcdt8os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "kr.skyle.boho"
+        minSdk 24
+        targetSdk 31
+        versionCode 2
+        versionName "0.0.1-beta1"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    buildToolsVersion '31.0.0'
+    compileSdkVersion 31
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
