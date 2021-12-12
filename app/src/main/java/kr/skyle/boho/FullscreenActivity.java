@@ -32,7 +32,8 @@ public class FullscreenActivity extends AppCompatActivity {
 
         webView = (WebView) findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://192.168.0.13:8080");
+        //webView.loadUrl("http://192.168.0.13:8080");
+        webView.loadUrl("https://portal.skyle.kr");
         webView.setWebChromeClient(new WebChromeClient());
         // webView.setWebViewClient(new WebViewClientClass());
 
